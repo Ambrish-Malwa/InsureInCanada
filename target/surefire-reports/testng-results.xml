@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61641" started-at="2020-07-31T01:10:01 EDT" finished-at="2020-07-31T01:11:02 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61641" started-at="2020-07-31T01:10:01 EDT" finished-at="2020-07-31T01:11:02 EDT">
+      <class name="com.insureincanada.testCases.SuperVisaInsurancePageTest">
+        <test-method status="PASS" signature="initializeBroswer_AndGoTo_URL()[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="initializeBroswer_AndGoTo_URL" is-config="true" duration-ms="11759" started-at="2020-07-31T01:10:29 EDT" finished-at="2020-07-31T01:10:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBroswer_AndGoTo_URL -->
+        <test-method status="PASS" signature="singlePolicy_SV_BlankAge_VerifyErrorMsg()[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="singlePolicy_SV_BlankAge_VerifyErrorMsg" duration-ms="7210" started-at="2020-07-31T01:10:41 EDT" finished-at="2020-07-31T01:10:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlePolicy_SV_BlankAge_VerifyErrorMsg -->
+        <test-method status="PASS" signature="singlePolicy_SV_GetQuote_DiffAge_restDefault(java.lang.String)[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="singlePolicy_SV_GetQuote_DiffAge_restDefault" duration-ms="1778" started-at="2020-07-31T01:10:48 EDT" data-provider="getDataForApplicantAge" finished-at="2020-07-31T01:10:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlePolicy_SV_GetQuote_DiffAge_restDefault -->
+        <test-method status="PASS" signature="singlePolicy_SV_GetQuote_DiffAge_restDefault(java.lang.String)[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="singlePolicy_SV_GetQuote_DiffAge_restDefault" duration-ms="1367" started-at="2020-07-31T01:10:50 EDT" data-provider="getDataForApplicantAge" finished-at="2020-07-31T01:10:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlePolicy_SV_GetQuote_DiffAge_restDefault -->
+        <test-method status="PASS" signature="singlePolicy_SV_GetTitle_AfterContinueButtonClick()[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="singlePolicy_SV_GetTitle_AfterContinueButtonClick" duration-ms="1299" started-at="2020-07-31T01:10:51 EDT" finished-at="2020-07-31T01:10:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlePolicy_SV_GetTitle_AfterContinueButtonClick -->
+        <test-method status="PASS" signature="singlePolicy_SV_isContinousButtonClickable()[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="singlePolicy_SV_isContinousButtonClickable" duration-ms="1762" started-at="2020-07-31T01:10:53 EDT" finished-at="2020-07-31T01:10:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singlePolicy_SV_isContinousButtonClickable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.insureincanada.testCases.SuperVisaInsurancePageTest@1aa7ecca]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-31T01:11:02 EDT" finished-at="2020-07-31T01:11:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insureincanada.testCases.SuperVisaInsurancePageTest -->
+      <class name="com.insureincanada.testCases.HomePageTest">
+        <test-method status="PASS" signature="initializeBroswer_AndGoTo_URL()[pri:0, instance:com.insureincanada.testCases.HomePageTest@59309333]" name="initializeBroswer_AndGoTo_URL" is-config="true" duration-ms="28355" started-at="2020-07-31T01:10:01 EDT" finished-at="2020-07-31T01:10:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBroswer_AndGoTo_URL -->
+        <test-method status="PASS" signature="homePageNavigaiton()[pri:0, instance:com.insureincanada.testCases.HomePageTest@59309333]" name="homePageNavigaiton" duration-ms="20" started-at="2020-07-31T01:10:54 EDT" finished-at="2020-07-31T01:10:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigaiton -->
+        <test-method status="PASS" signature="superVisaSinglePolicyInitialInfoDefaultDate()[pri:0, instance:com.insureincanada.testCases.HomePageTest@59309333]" name="superVisaSinglePolicyInitialInfoDefaultDate" duration-ms="1392" started-at="2020-07-31T01:10:54 EDT" finished-at="2020-07-31T01:10:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superVisaSinglePolicyInitialInfoDefaultDate -->
+        <test-method status="PASS" signature="superVisaTitle()[pri:0, instance:com.insureincanada.testCases.HomePageTest@59309333]" name="superVisaTitle" duration-ms="1211" started-at="2020-07-31T01:10:56 EDT" finished-at="2020-07-31T01:10:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superVisaTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.insureincanada.testCases.HomePageTest@59309333]" name="tearDown" is-config="true" duration-ms="5384" started-at="2020-07-31T01:10:57 EDT" finished-at="2020-07-31T01:11:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insureincanada.testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

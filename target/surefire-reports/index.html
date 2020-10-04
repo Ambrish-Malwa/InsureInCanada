@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Administrator\eclipse-workspace\insureincanada\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.HomePageTest" hash-for-method="homePageNavigaiton">homePageNavigaiton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.SuperVisaInsurancePageTest" hash-for-method="singlePolicy_SV_BlankAge_VerifyErrorMsg">singlePolicy_SV_BlankAge_VerifyErrorMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.SuperVisaInsurancePageTest" hash-for-method="singlePolicy_SV_GetQuote_DiffAge_restDefault(92)">singlePolicy_SV_GetQuote_DiffAge_restDefault(92)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.SuperVisaInsurancePageTest" hash-for-method="singlePolicy_SV_GetQuote_DiffAge_restDefault(39)">singlePolicy_SV_GetQuote_DiffAge_restDefault(39)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.SuperVisaInsurancePageTest" hash-for-method="singlePolicy_SV_GetTitle_AfterContinueButtonClick">singlePolicy_SV_GetTitle_AfterContinueButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.SuperVisaInsurancePageTest" hash-for-method="singlePolicy_SV_isContinousButtonClickable">singlePolicy_SV_isContinousButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.HomePageTest" hash-for-method="superVisaSinglePolicyInitialInfoDefaultDate">superVisaSinglePolicyInitialInfoDefaultDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.insureincanada.testCases.HomePageTest" hash-for-method="superVisaTitle">superVisaTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insureincanada.testCases.SuperVisaInsurancePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="singlePolicy_SV_BlankAge_VerifyErrorMsg">
+                  </a> <!-- singlePolicy_SV_BlankAge_VerifyErrorMsg -->
+                  <span class="method-name">singlePolicy_SV_BlankAge_VerifyErrorMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singlePolicy_SV_GetQuote_DiffAge_restDefault(92)">
+                  </a> <!-- singlePolicy_SV_GetQuote_DiffAge_restDefault(92) -->
+                  <span class="method-name">singlePolicy_SV_GetQuote_DiffAge_restDefault</span>
+                  <span class="parameters">(92)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singlePolicy_SV_GetQuote_DiffAge_restDefault(39)">
+                  </a> <!-- singlePolicy_SV_GetQuote_DiffAge_restDefault(39) -->
+                  <span class="method-name">singlePolicy_SV_GetQuote_DiffAge_restDefault</span>
+                  <span class="parameters">(39)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singlePolicy_SV_GetTitle_AfterContinueButtonClick">
+                  </a> <!-- singlePolicy_SV_GetTitle_AfterContinueButtonClick -->
+                  <span class="method-name">singlePolicy_SV_GetTitle_AfterContinueButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singlePolicy_SV_isContinousButtonClickable">
+                  </a> <!-- singlePolicy_SV_isContinousButtonClickable -->
+                  <span class="method-name">singlePolicy_SV_isContinousButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.insureincanada.testCases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageNavigaiton">
+                  </a> <!-- homePageNavigaiton -->
+                  <span class="method-name">homePageNavigaiton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="superVisaSinglePolicyInitialInfoDefaultDate">
+                  </a> <!-- superVisaSinglePolicyInitialInfoDefaultDate -->
+                  <span class="method-name">superVisaSinglePolicyInitialInfoDefaultDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="superVisaTitle">
+                  </a> <!-- superVisaTitle -->
+                  <span class="method-name">superVisaTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator\eclipse-workspace\insureincanada\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.insureincanada.testCases.SuperVisaInsurancePageTest&quot;/&gt;
+      &lt;class name=&quot;com.insureincanada.testCases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'singlePolicy_SV_BlankAge_VerifyErrorMsg')
+data.setCell(0, 2, 'com.insureincanada.testCases.SuperVisaInsurancePageTest')
+data.setCell(0, 3, 7210);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'singlePolicy_SV_GetQuote_DiffAge_restDefault')
+data.setCell(1, 2, 'com.insureincanada.testCases.SuperVisaInsurancePageTest')
+data.setCell(1, 3, 1778);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'singlePolicy_SV_isContinousButtonClickable')
+data.setCell(2, 2, 'com.insureincanada.testCases.SuperVisaInsurancePageTest')
+data.setCell(2, 3, 1762);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'superVisaSinglePolicyInitialInfoDefaultDate')
+data.setCell(3, 2, 'com.insureincanada.testCases.HomePageTest')
+data.setCell(3, 3, 1392);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'singlePolicy_SV_GetQuote_DiffAge_restDefault')
+data.setCell(4, 2, 'com.insureincanada.testCases.SuperVisaInsurancePageTest')
+data.setCell(4, 3, 1367);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'singlePolicy_SV_GetTitle_AfterContinueButtonClick')
+data.setCell(5, 2, 'com.insureincanada.testCases.SuperVisaInsurancePageTest')
+data.setCell(5, 3, 1299);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'superVisaTitle')
+data.setCell(6, 2, 'com.insureincanada.testCases.HomePageTest')
+data.setCell(6, 3, 1211);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'homePageNavigaiton')
+data.setCell(7, 2, 'com.insureincanada.testCases.HomePageTest')
+data.setCell(7, 3, 20);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insureincanada.testCases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBroswer_AndGoTo_URL</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insureincanada.testCases.SuperVisaInsurancePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBroswer_AndGoTo_URL</span>
+                <span class="method-start">28355 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">singlePolicy_SV_BlankAge_VerifyErrorMsg</span>
+                <span class="method-start">40178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">singlePolicy_SV_GetQuote_DiffAge_restDefault(39)</span>
+                <span class="method-start">47396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">singlePolicy_SV_GetQuote_DiffAge_restDefault(92)</span>
+                <span class="method-start">49178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">singlePolicy_SV_GetTitle_AfterContinueButtonClick</span>
+                <span class="method-start">50545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">singlePolicy_SV_isContinousButtonClickable</span>
+                <span class="method-start">51848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insureincanada.testCases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageNavigaiton</span>
+                <span class="method-start">53618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">superVisaSinglePolicyInitialInfoDefaultDate</span>
+                <span class="method-start">53638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">superVisaTitle</span>
+                <span class="method-start">55034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56249 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.insureincanada.testCases.SuperVisaInsurancePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61633 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
